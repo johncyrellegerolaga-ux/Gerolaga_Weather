@@ -1,0 +1,19 @@
+# Normalize line endings for every text file, regardless of the
+# contributor's core.autocrlf setting.
+* text=auto eol=lf
+
+# Gradle wrapper scripts must stay LF even on Windows checkouts, otherwise
+# Git Bash and WSL fail with "$'\r': command not found".
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Binary files: never touch them
+*.jar binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.ttf binary
+*.keystore binary

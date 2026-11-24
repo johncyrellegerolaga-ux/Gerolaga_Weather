@@ -1,0 +1,32 @@
+# --- Build output -----------------------------------------------------------
+*.iml
+.gradle
+.kotlin
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# --- Local configuration and secrets (never commit) -------------------------
+local.properties
+.env
+.env.*
+secrets.properties
+keystore.properties
+*.jks
+*.keystore
+
+# --- IDE --------------------------------------------------------------------
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# --- Local agent tooling (not part of the published project) ----------------
+AGENTS.md
+.opencode/
+graphify-out/
