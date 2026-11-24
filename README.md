@@ -28,7 +28,7 @@ A modern, high-performance Android weather app built with Jetpack Compose and Ma
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Asutilla/Weather-App.git
+git clone https://github.com/Gerolaga/Gerolaga_Weather.git
 cd Weather-App
 ```
 
